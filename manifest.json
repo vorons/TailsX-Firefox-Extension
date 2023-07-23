@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "TailsX — Privacy Meta Search Engine",
+  "version": "1.0",
+  "author": "voron",
+  "default_locale": "en",
+  "description": "__MSG_extensionDescription__",
+  "icons": {
+    "48": "icons/search48.webp"
+  },
+  "browser_action": {
+    "default_title": "TailsX"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "64.0"
+    }
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "TailsX",
+      "keyword": "@tailsx, @tx",
+      "search_url": "https://search.nya.pub/search?q={searchTerms}",
+      "favicon_url": "icons/search128.webp",
+      "suggest_url": "https://search.nya.pub/suggestions?q={searchTerms}",
+      "is_default": true
+    }
+  }
+}
