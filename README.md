@@ -44,3 +44,6 @@ If you want use **TailsX** as support to main search engine do this:
 
 # Distribute your extension
 https://extensionworkshop.com/documentation/publish/
+
+#As example, extension for search.nya.pub instance
+https://addons.mozilla.org/firefox/downloads/file/4142250/7a5d9a81f94148989f0c-1.0.xpi
